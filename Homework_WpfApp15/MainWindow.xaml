@@ -1,0 +1,109 @@
+﻿<Window x:Class="Homework_WpfApp15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework_WpfApp15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1300" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph TextAlignment="Center">
+                    <Run Foreground="#FF5253B3" FontFamily="SimSun-ExtB" FontSize="30">BLUEPRINT</Run>
+                </Paragraph>
+                <Paragraph Margin="10">
+                    <Bold>ОТТИНГЕР ПРОТИВ ВСЕХ</Bold>
+                </Paragraph>
+                <BlockUIContainer>
+                    <Image Source="Data/blueprint1.jpg"/>
+                </BlockUIContainer>
+                <Table>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    На съемочной площадке
+                                    <Italic>Оттингер</Italic> часто оказывались представители берлинского андеграунда, от завсегдатаев маргинальных клубов до элитных проституток. В «Билете в один конец» в камео появляется икона немецкого панка Нина Хаген. В своей фирменной эпатажной манере (белый грим, ужимки, оперный голос) она повествует со сцены историю изнасилования пьяной девушки. Череда крупных планов мужчин из зала подчеркивает статус женщины как объекта навязчивого внимания.
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph Margin="5" Padding="5">
+                                    Отношения самой
+                                    <Italic>Оттингер</Italic> с женским движением не всегда были гладкими.
+                                    <Span>
+                                        <Span.Background>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.2">
+                                                <GradientStop Color="#FFD0E2EA" Offset="0"/>
+                                                <GradientStop Color="#FF5E9FBC" Offset="1"/>
+                                            </LinearGradientBrush>
+                                        </Span.Background> «Моя теория касательно свободы и феминизма заключалась в поиске альтернатив, — вспоминала она. — При этом многие лидеры феминистского движения 1960–1970-х пытались установить свои правила и ограничения, засадить нас в новые клетки».
+                                    </Span>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph FontSize="18">
+                    <Floater Width="350" HorizontalAlignment="Left">
+                        <BlockUIContainer>
+                            <Image Source="Data/blueprint2.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    Ответной реакцией художницы стал фильм «Мадам Х — абсолютная правительница», одна из первых полнометражных работ
+                    <Italic>Оттингер</Italic> с Блюменштайн в главной роли. Сюжет лесбийской саги разворачивается вокруг группы женщин, решивших уплыть от «скуки и патриархата» на корабле под руководством пиратки-доминатрикс Мадам Х. Героини, отправившиеся в путешествие в поисках золота, любви и приключений, вскоре погрязли в насилии, зависти и жестокости друг к другу, а Мадам Х обернулась властным диктатором. Фильм вызвал волны негодования и упреков в сторону автора.
+                </Paragraph>
+                                <Paragraph>
+                                    <Paragraph.Background>
+                                        <ImageBrush ImageSource="Data/bplogo.JPG" Stretch="Uniform" TileMode="Tile" Viewport="0,0,0.5,1"/>
+                                    </Paragraph.Background>
+                                </Paragraph>
+                <Table>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph FontSize="14">
+                                    Над материалом работали
+                                </Paragraph>
+                                <Section FontSize="12">
+                                    <List MarkerStyle="None">
+                                        <ListItem>
+                                            <Paragraph>
+                                                Аверченко Дарья
+                                            </Paragraph>
+                                        </ListItem>
+                                        <ListItem>
+                                            <Paragraph>
+                                                Богожицкий Сергей
+                                            </Paragraph>
+                                        </ListItem>
+                                        <ListItem>
+                                            <Paragraph>
+                                                Малина Татьяна
+                                            </Paragraph>
+                                        </ListItem>
+                                    </List>
+                                </Section>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph FontSize="14" Padding="30">
+                                    <Paragraph.Background>
+                                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.2">
+                                            <GradientStop Color="#FFD0E2EA" Offset="0"/>
+                                            <GradientStop Color="#FF5E9FBC" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Paragraph.Background>
+                                    Лучшие материалы
+                                    <Run FontFamily="SimSun-ExtB">The Blueprint</Run> - в нашем
+                                    <Hyperlink NavigateUri="https://t.me/theblueprintru">
+                                        <Run Foreground="#FF5253B3" FontFamily="SimSun-ExtB">телеграм-канале</Run>
+                                    </Hyperlink> . Подписывайтесь!
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
